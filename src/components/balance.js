@@ -8,7 +8,7 @@ export const Balance = () => {
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(1);
   return (
     <>
-      <h4>Your balance : RWF {total}</h4>
+      <h4>Your savings : RWF {total}</h4>
     </>
   );
 };
